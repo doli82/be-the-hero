@@ -18,6 +18,6 @@ module.exports = {
             city,
             uf
         });
-        return response.json( request.body );
+        return response.json( {id} );
     }
 };
