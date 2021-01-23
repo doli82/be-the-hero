@@ -5,7 +5,7 @@
   "description": "Aplicação Backend para o sistema be-the-hero, desenvolvida durante a Semana OmniStack 11 da Rocketseat.",
   "main": "server.js",
   "scripts": {
-    "start": "npm run db-migrations && nodemon src/server.js",
+    "dev": "npm run db-migrations && nodemon src/server.js",
     "db-migrations": "npx knex migrate:latest",
     "test": "cross-env NODE_ENV=test jest"
   },
